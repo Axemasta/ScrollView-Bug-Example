@@ -1,7 +1,7 @@
 # ScrollView Bug Example
+[![GitHub issue state](https://img.shields.io/github/issues/detail/s/xamarin/Xamarin.Forms/4142.svg)](https://github.com/xamarin/Xamarin.Forms/issues/4142)
+
 This is the supporting repository for [Xamarin Forms Issue #4142](https://github.com/xamarin/Xamarin.Forms/issues/4142)
-
-
 
 When trying to remove the scroll bar on a scrollview in android, it won't be removed if the scrollview has a horizontal orientation. I encountered this issue in a production app, once I had exhausted my options I created this sample to recreate the issue and it persists in a fresh project, indicating it is likely a bug with Xamarin itself.
 
