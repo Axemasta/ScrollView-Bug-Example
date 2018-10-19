@@ -38,9 +38,9 @@ public App()
 
 When running the project on iOS, both implementations work as expected and remove the scroll bar.
 
-<img src="/Users/alex.duffell/Documents/Personal Apps/GitHub/ScrollView-Bug-Example/assets/effect-ios.gif" width="250"><img src="/Users/alex.duffell/Documents/Personal Apps/GitHub/ScrollView-Bug-Example/assets/renderer-ios.gif" width="250">
+<img src="https://github.com/Axemasta/ScrollView-Bug-Example/blob/master/assets/effect-ios.gif" width="250"><img src="https://github.com/Axemasta/ScrollView-Bug-Example/blob/master/assets/renderer-ios.gif" width="250">
 
 
 When running the project on Android, the vertical scroll bar will be removed however the horizontal scrollbar won't be removed.
 
-<img src="/Users/alex.duffell/Documents/Personal Apps/GitHub/ScrollView-Bug-Example/assets/effect-droid.gif" width="250"><img src="/Users/alex.duffell/Documents/Personal Apps/GitHub/ScrollView-Bug-Example/assets/renderer-droid.gif" width="250">
+<img src="https://github.com/Axemasta/ScrollView-Bug-Example/blob/master/assets/effect-droid.gif" width="250"><img src="https://github.com/Axemasta/ScrollView-Bug-Example/blob/master/assets/renderer-droid.gif" width="250">
