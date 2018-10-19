@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:controls="clr-namespace:ScrollBarBug.Controls"
+             x:Class="ScrollBarBug.Views.RendererPage">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Start">      
+            <Label Text="Horizontal Scroll View Android Bug Example" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+            
+            <Label Text="Using Renderer" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+            
+            <controls:CleanScrollView Orientation="Horizontal" HeightRequest="200">
+                <StackLayout Orientation="Horizontal">
+                    <BoxView WidthRequest="50" Color="Blue"/>
+                    <BoxView WidthRequest="50" Color="Fuchsia"/>
+                    <BoxView WidthRequest="50" Color="Blue"/>
+                    <BoxView WidthRequest="50" Color="Fuchsia"/>
+                    <BoxView WidthRequest="50" Color="Blue"/>
+                    <BoxView WidthRequest="50" Color="Fuchsia"/>
+                    <BoxView WidthRequest="50" Color="Blue"/>
+                    <BoxView WidthRequest="50" Color="Fuchsia"/>
+                    <BoxView WidthRequest="50" Color="Blue"/>
+                    <BoxView WidthRequest="50" Color="Fuchsia"/>
+                    <BoxView WidthRequest="50" Color="Blue"/>
+                    <BoxView WidthRequest="50" Color="Fuchsia"/>
+                </StackLayout>
+            </controls:CleanScrollView>
+            
+            <controls:CleanScrollView Orientation="Vertical">
+                <StackLayout>
+                    <BoxView HeightRequest="50" Color="Aqua"/>
+                    <BoxView HeightRequest="50" Color="Fuchsia"/>
+                    <BoxView HeightRequest="50" Color="Aqua"/>
+                    <BoxView HeightRequest="50" Color="Fuchsia"/>
+                    <BoxView HeightRequest="50" Color="Aqua"/>
+                    <BoxView HeightRequest="50" Color="Fuchsia"/>
+                    <BoxView HeightRequest="50" Color="Aqua"/>
+                    <BoxView HeightRequest="50" Color="Fuchsia"/>
+                    <BoxView HeightRequest="50" Color="Aqua"/>
+                    <BoxView HeightRequest="50" Color="Fuchsia"/>
+                    <BoxView HeightRequest="50" Color="Aqua"/>
+                    <BoxView HeightRequest="50" Color="Fuchsia"/>
+                    <BoxView HeightRequest="50" Color="Aqua"/>
+                    <BoxView HeightRequest="50" Color="Fuchsia"/>
+                    <BoxView HeightRequest="50" Color="Aqua"/>
+                    <BoxView HeightRequest="50" Color="Fuchsia"/>
+                </StackLayout>
+            </controls:CleanScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

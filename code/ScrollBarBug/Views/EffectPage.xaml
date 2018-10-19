@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:ScrollBarBug"
+             xmlns:effects="clr-namespace:ScrollBarBug.Effects"
+             x:Class="ScrollBarBug.Views.EffectPage">
+    <StackLayout VerticalOptions="Start">      
+        <Label Text="Horizontal Scroll View Android Bug Example" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+        
+        <Label Text="Using Effect" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+        
+        <ScrollView Orientation="Horizontal" HeightRequest="200">
+            <ScrollView.Effects>
+                <effects:RemoveScrollBarEffect/>
+            </ScrollView.Effects>
+            
+            <StackLayout Orientation="Horizontal">
+                <BoxView WidthRequest="50" Color="Aqua"/>
+                <BoxView WidthRequest="50" Color="Lime"/>
+                <BoxView WidthRequest="50" Color="Aqua"/>
+                <BoxView WidthRequest="50" Color="Lime"/>
+                <BoxView WidthRequest="50" Color="Aqua"/>
+                <BoxView WidthRequest="50" Color="Lime"/>
+                <BoxView WidthRequest="50" Color="Aqua"/>
+                <BoxView WidthRequest="50" Color="Lime"/>
+                <BoxView WidthRequest="50" Color="Aqua"/>
+                <BoxView WidthRequest="50" Color="Lime"/>
+                <BoxView WidthRequest="50" Color="Aqua"/>
+                <BoxView WidthRequest="50" Color="Lime"/>
+            </StackLayout>
+        </ScrollView>
+        
+        <ScrollView Orientation="Vertical">
+            <ScrollView.Effects>
+                <effects:RemoveScrollBarEffect/>
+            </ScrollView.Effects>
+            
+            <StackLayout>
+                <BoxView HeightRequest="50" Color="Aqua"/>
+                <BoxView HeightRequest="50" Color="Lime"/>
+                <BoxView HeightRequest="50" Color="Aqua"/>
+                <BoxView HeightRequest="50" Color="Lime"/>
+                <BoxView HeightRequest="50" Color="Aqua"/>
+                <BoxView HeightRequest="50" Color="Lime"/>
+                <BoxView HeightRequest="50" Color="Aqua"/>
+                <BoxView HeightRequest="50" Color="Lime"/>
+                <BoxView HeightRequest="50" Color="Aqua"/>
+                <BoxView HeightRequest="50" Color="Lime"/>
+                <BoxView HeightRequest="50" Color="Aqua"/>
+                <BoxView HeightRequest="50" Color="Lime"/>
+                <BoxView HeightRequest="50" Color="Aqua"/>
+                <BoxView HeightRequest="50" Color="Lime"/>
+                <BoxView HeightRequest="50" Color="Aqua"/>
+                <BoxView HeightRequest="50" Color="Lime"/>
+            </StackLayout>
+        </ScrollView>
+    </StackLayout>
+</ContentPage>
